@@ -1,5 +1,5 @@
 package cell;
-
+//è¡¨è¾¾æ¯ä¸€ä¸ªæ–¹å—ã€‚
 import java.awt.Graphics;
  
 public class Cell {
@@ -10,9 +10,9 @@ public class Cell {
 	public boolean isAlive() { return alive; }
 	
 	public void draw(Graphics g, int x, int y, int size) {		
-		g.drawRect(x, y, size, size);		//°´ÕÕÍ¼ĞÎÀàGraphics gµÄdrawRect·½·¨£¬»­¾ØĞÎ
+		g.drawRect(x, y, size, size);		//æŒ‰ç…§å›¾å½¢ç±»Graphics gçš„drawRectæ–¹æ³•ï¼Œç”»çŸ©å½¢
 		if ( alive ) {
-			g.fillRect(x, y, size, size);	//Ìî³ä¾ØĞÎ
+			g.fillRect(x, y, size, size);	//å¡«å……çŸ©å½¢
 		}
 	}
 }
